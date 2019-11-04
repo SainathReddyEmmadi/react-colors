@@ -3,8 +3,11 @@ import './App.css';
 
 function Palette() {
   return (
-    <div>
-     hai
+    <div className="Palette">
+        {/* Navbar goes here */}
+        <div className="Palette=colors">{/* bunch of color boxes */}</div>
+        {/*Footer  */}
+        
     </div>
   );
 }
