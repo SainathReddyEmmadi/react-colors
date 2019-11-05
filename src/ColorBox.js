@@ -6,6 +6,7 @@ class ColorBox extends Component {
     render() { 
         const {name, background} = this.props;
         return (
+            <CopyToClipboard text={background}>
             <div 
                 style={{background}}
                 className="ColorBox">
@@ -18,6 +19,7 @@ class ColorBox extends Component {
                     <span className="see-more">More</span>
                 </div>
             </div>
+            </CopyToClipboard>
         )
     }
 }
